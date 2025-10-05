@@ -1,0 +1,23 @@
+# ==== Ignorar modelos entrenados ====
+*.pth
+*.pt
+*.h5
+
+# ==== Ignorar datasets y archivos grandes ====
+models/processed/
+*.npz
+*.zip
+*.tar
+*.csv
+*.xlsx
+models/nutrition_scaler.pkl
+
+# ==== Ignorar temporales ====
+__pycache__/
+*.log
+.DS_Store
+
+# ==== Ignorar configuraciones locales ====
+.env
+.vscode/
+.idea/
